@@ -1,6 +1,6 @@
 const FirebaseStorage = require('multer-firebase-storage');
 const fbAdmin = require('./firebase.config');
-const serviceCredentials = require('./etc/secrets/e-commerce-backend-domination-firebase-adminsdk-2wrl3-6a8af59979.json');
+const serviceCredentials = require('/etc/secrets/e-commerce-backend-domination-firebase-adminsdk-2wrl3-6a8af59979.json');
 const multer = require('multer');
 const storage = FirebaseStorage({
     bucketName: 'e-commerce-backend-domination.appspot.com',
