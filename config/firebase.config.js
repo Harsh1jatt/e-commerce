@@ -1,5 +1,5 @@
 const fbAdmin = require('firebase-admin')
-const serviceCredentials = require('../etc/secret/e-commerce-backend-domination-firebase-adminsdk-2wrl3-6a8af59979.json');
+const serviceCredentials = require('/etc/secret/e-commerce-backend-domination-firebase-adminsdk-2wrl3-6a8af59979.json');
 
 
 fbAdmin.initializeApp({
